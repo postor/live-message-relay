@@ -1,0 +1,30 @@
+{
+  "name": "live-message-relay",
+  "version": "1.0.0",
+  "description": "检查指定用户是否在线或向某人发消息的服务 | service that provide check someone online status and send message to someone",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/live-message-relay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/live-message-relay/issues"
+  },
+  "homepage": "https://github.com/postor/live-message-relay#readme",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "etcd3": "^1.1.0",
+    "nats": "^2.2.0",
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0"
+  }
+}
